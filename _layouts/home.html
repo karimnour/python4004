@@ -16,7 +16,7 @@ layout: default
     <div class="box home-box">
       <div class="post-list">
         {%- for post in posts -%}
-          <a class="post-link" href="{{ relative_url }}">
+          <a class="post-link" href="{{ post.url | relative_url }}">
             <h3>{{ post.title | escape }}</h3>
           </a>
         {%- endfor -%}
