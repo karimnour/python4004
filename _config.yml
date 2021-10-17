@@ -1,6 +1,9 @@
-title:<--->python4004<--->
-iconURL: /assets/hacker.png
+title: python4004
+iconURL: assets/hacker.png
+theme: jekyll-theme-hacker
+
 permalink: :slug
+
 social:
   linkedin: karimnour
   github: karimnour
@@ -13,4 +16,3 @@ plugins:
 hyvor_talk_website_id: 3545
 google_analytics: UA-NNNNNNNN-N
 
-theme: jekyll-theme-hacker
