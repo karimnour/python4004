@@ -1,8 +1,6 @@
 title:<--->python4004<--->
-iconURL: assets/hacker.png
-
+iconURL: /assets/hacker.png
 permalink: :slug
-timezone: Africa/Egypt
 social:
   linkedin: karimnour
   github: karimnour
