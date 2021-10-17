@@ -12,3 +12,5 @@ plugins:
 ### comments & analytics
 hyvor_talk_website_id: 3545
 google_analytics: UA-NNNNNNNN-N
+
+theme: jekyll-theme-hacker
