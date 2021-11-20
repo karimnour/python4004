@@ -24,7 +24,7 @@ PORT   STATE SERVICE VERSION
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 ```
-## `User acess` 
+## `User access` 
 
 ####  2- HTTP service
 ![screen1](https://user-images.githubusercontent.com/36403473/137603151-2db01eea-e091-4985-9781-6e9d032001ef.png)
@@ -43,9 +43,9 @@ lets check `/resources/` directory
 by checking `bountylog.js` it seems a juicy file 
 ![screen4](https://user-images.githubusercontent.com/36403473/137603145-57cda49b-1751-4183-a913-2664bd15b48a.png)
 
-**now lets analys this piece of code:** 
+**now lets analyze this piece of code:** 
 
-we notic data is sent to server  in `data` parameter in **xml** format so it seems **xml injection** 
+we notic the data is sent to server  in `data` parameter in **xml** format so it seems **xml injection** 
 
 so lets visit `tracker_diRbPr00f314.php`
 ![screen5](https://user-images.githubusercontent.com/36403473/137603146-d04cd586-f889-4833-9a2d-a5b4bda3ca21.png)
@@ -159,14 +159,14 @@ notice `development` user
 #### 3- SSH 
 ![screen11](https://user-images.githubusercontent.com/36403473/137606008-3e515acb-4ed8-454b-8308-333149468173.png)
 
-## `ROOT acess` 
+## `ROOT access` 
 
 first lets check what this user can do so i used `sudo -l` command 
 
 ![screen16](https://user-images.githubusercontent.com/36403473/138506691-a3e3812b-67e9-45d0-80bb-78900b4cc3b6.png)
 
 
- this user can run this `/opt/skytrain_inc/ticketValidator.py` file so lets see what  this file do 
+ this user can run this ```/opt/skytrain_inc/ticketValidator.py``` file so lets see what  this file do 
 
 ```
 #Skytrain Inc Ticket Validation System 0.1
@@ -246,7 +246,7 @@ so i downloaded this code and created test.md file to check the valid format of 
 
 so in the forth line we can excute code so upload sample of `test.md` in valid format on the server and tried to run the code 
 
-and try to  read /root/root.txt
+and try to  read **/root/root.txt**
 ```
 # Skytrain Inc
 ## Ticket to
