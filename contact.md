@@ -6,12 +6,15 @@ A Computer Science student by day and a pentester by night.
 
 I like [CTFS-HTB-web application vulnerabilities] 
 
-security engineer at [neureveal](https://neureveal.ai) USA.
+cyber security engineer engineer at [neureveal](https://neureveal.ai) .
 
       -secure their infrastractures
       -help developers to write secure code
       -HIPAA & GDPR compliance
 
+cyber security engineer engineer [Triforce Systems ](https://triforcesystems.com)
+      -web penetration testing
+      -network penetration testing 
 
  
 
