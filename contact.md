@@ -12,7 +12,8 @@ cyber security engineer engineer at [neureveal](https://neureveal.ai) .
       -help developers to write secure code
       -HIPAA & GDPR compliance
 
-cyber security engineer engineer [Triforce Systems ](https://triforcesystems.com)
+cyber security engineer engineer [Triforce Systems ](https://triforcesystems.com) .
+
       -web penetration testing
       -network penetration testing 
 
